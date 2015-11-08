@@ -48,6 +48,16 @@
   .totop{position:fixed;right:25px;bottom:50px;display:block;width:26px;height:62px;background:url({{ ASSET_PATH }}/images/rocket.png) no-repeat 0 0;-webkit-transition: all 0.2s ease-in-out;}
   .totop:hover{background:url({{ ASSET_PATH }}/images/rocket.png) no-repeat 0 -62px;}
   </style>
+  <!--百度统计-->
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?c085523d93c79c2502e99b09bd189c58";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
 
   </head>
 
@@ -91,8 +101,6 @@
         {{ content }}
       </div>
     </div>
-
-
 
     <div id="footer">
       <div class="container">
